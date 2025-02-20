@@ -14,7 +14,7 @@ public class FundamentosService
         if (numero < 2) {
             return " No es PRIMO";
         }
-        for (int i = 0; i <= Math.sqrt(numero); i++) {
+        for (int i = 2; i <= Math.sqrt(numero); i++) {
             if (numero % i == 0) {
                 return "No es PRIMO";
             }
